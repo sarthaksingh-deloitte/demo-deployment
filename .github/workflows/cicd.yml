@@ -117,38 +117,38 @@ jobs:
           [
               {
                 "id": "Exchange",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               },
               {
                 "id": "anypoint-exchange",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               },
               {
                 "id": "anypoint-exchange-v2",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               },
               {
                 "id": "Exchange2",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               },
               {
                 "id": "mulesoft-releases",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               },
               {
                 "id": "mulesoft-snapshots",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               },
               {
                 "id": "mulesoft-releases-ee",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               }
           ]
         profiles: >
@@ -305,38 +305,38 @@ jobs:
             [
               {
                 "id": "Exchange",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               },
               {
                 "id": "anypoint-exchange",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               },
               {
                 "id": "anypoint-exchange-v2",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               },
               {
                 "id": "Exchange2",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               },
               {
                 "id": "mulesoft-releases",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               },
               {
                 "id": "mulesoft-snapshots",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               },
               {
                 "id": "mulesoft-releases-ee",
-                "username": "${{secrets.M_USERNAME}}",
-                "password": "${{secrets.M_PASSWORD}}"
+                "username": "${{secrets.USERNAME}}",
+                "password": "${{secrets.PASSWORD}}"
               }
             ]
           profiles: >
