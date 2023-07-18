@@ -1,0 +1,45 @@
+#%RAML 1.0
+title: Book Service
+version: 1.0
+/users:
+  description: Get all the users
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              [{
+                "id":1,
+                "name":"Sarthak"
+              },
+              {
+                "id":2,
+                "name":"xyz"
+              }]
+      500:
+        body:
+          application/json:
+            example:
+              {
+                "success":"false",
+                "message":"server error"
+              }
+  post:
+    body:
+      application/json:
+        example:
+          {
+          "id":"1",
+          "name":"zxc"
+        }
+    responses:
+      201:
+        body:
+          application/json:
+            example:
+              {
+                "success":"true",
+                "message":"user created"
+              }
+          
